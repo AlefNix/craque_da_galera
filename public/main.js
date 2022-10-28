@@ -5,7 +5,7 @@ forma.addEventListener('submit',(e)=>{
   const data = {os: choice};
   console.log(choice);
 
-  fetch('http://localhost:8081/enquete',{
+  fetch('https://enquete-craque.herokuapp.com/enquete',{
     method: 'post',
     body: JSON.stringify(data),
     headers: new Headers({
@@ -24,7 +24,7 @@ forma.addEventListener('submit',(e)=>{
     e.preventDefault();
 });
 
-fetch('http://localhost:8081/enquete')
+fetch('https://enquete-craque.herokuapp.com/enquete')
     .then(res => res.json())
     .then(data => {
         const testesCraque = data.testesCraque;
