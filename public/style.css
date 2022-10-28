@@ -1,29 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
 
-        body {
-            background: rgba(255, 255, 255, 0);
-            font-family: 'Barlow', sans-serif;     
-            padding-bottom: 30px;
-            padding-left: 10px;
-        }
-        form{
-            width: 1051px;
-            display: flex;
-        }
-
-        span{
-            padding: 5px 10px;
-            margin: 10px;
-            color: black;
-            border-radius: 0.25em;
-            background: rgb(208, 208, 208);
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.22);
-            transition: 0.3s;
-            font-style: bold;
-            font-size: 20px;
-        }
-
-        .btn {
+        /*.btn {
             padding: 5px 10px;
             margin: 10px;
             cursor: pointer;
@@ -38,52 +15,18 @@
             width: 200px;
             height: 60px;
             font-size: larger;
-        }
+        }*/
 
-        input[type=radio]:checked + label,.btn:hover, .btn:active{
+        .btn:hover, .btn:active{
             background:rgb(0, 255, 102) ;
             color: aliceblue;
             }
         
-            input[type=radio]:disabled + label, .btn:disabled{
-                background-color: #000;
+        .btn:disabled{
+                background-color: rgb(107, 107, 107);
                 color: white;
                 cursor: default;
             }
         .nome{
             font-size: 20px;
-        }
-
-        .button-label {
-            float:left;
-            line-height:30px;
-            width:301px;
-            height:30px;
-            display:block
- ;
-        }
-        .button-label1 {
-            position:relative;
-            display:block;
-            float:right;
-            line-height:30px;
-            margin-left: 150px;
-            width:299px;
-            height:30px;
-        }
-        input{
-            width: 20px;
-            height: 20px;
-        }
-
-        .coluna1{
-            margin-left: 150px;
-        }
-        .botao{
-            position: absolute;
-            top: 20px;
-            left: 200px
-        }
-        label{
-            display: flex;
         }
